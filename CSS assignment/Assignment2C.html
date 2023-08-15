@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .one{
+            height: 450px;
+            width: 100%;
+            position: relative;
+        }
+        .oneA{
+             height: inherit;
+             width: inherit;
+             position: absolute;
+        }
+        .put{
+            height: inherit;
+            width: inherit;
+            position: absolute;
+            z-index: 1;
+        }
+        .L1{
+            position: absolute;
+          z-index: 2;
+          margin-left: 90px;
+          margin-top: 20px;
+        }
+        .ogo{
+            position: absolute;
+            z-index: 2;
+            margin-left: 100px;
+            margin-top: 20px;
+            width: 30px;
+        }
+        .a1{
+            position: absolute;
+            z-index: 2;
+            margin-left: 400px;
+            margin-top: 20px;
+            color: red;
+        }
+        .a2{
+            position: absolute;
+            z-index: 2;
+            margin-left: 500px;
+            margin-top: 20px;
+        }
+        .a3{
+            position: absolute;
+            z-index: 2;
+            margin-left:600px ;
+            margin-top: 20px;
+        }
+        .a4{
+            position: absolute;
+            z-index: 2;
+            margin-left: 700px;
+            margin-top: 20px;
+        }
+        .a5{
+            position: absolute;
+            z-index: 2;
+            margin-left:800px;
+            margin-top: 20px;
+        }
+        .our{
+            position: absolute;
+            z-index: 2;
+            margin-top: 150px;
+            margin-left: 450px;
+            color: white;
+        }
+        .sky{
+            position: absolute;
+            z-index: 2;
+            margin-top: 200px;
+            margin-left: 420px;
+            color: white;
+        }
+        .b1{
+            position: absolute;
+            z-index: 2;
+            width: 50px;
+            margin-top: 260px;
+            margin-left: 480px;
+        }
+        .b2{
+            position: absolute;
+            z-index: 2;
+            width: 20px;
+            margin-top: 260px;
+            margin-left: 550px;
+            border-radius: 50%;
+        }
+        .b3{
+            position: absolute;
+            z-index: 2;
+            width: 50px;
+            margin-top: 260px;
+            margin-left: 580px;
+        }
+        .b4{
+            position: absolute;
+            z-index: 2;
+            margin-top: 370px;
+            margin-left: 450px;
+            border: 2px solid black;
+            height: 40px;
+            width: 130px;
+            color: white;
+            background-color: crimson;
+        }
+        .b5{
+            position: absolute;
+            z-index: 2;
+            margin-top: 370px;
+            margin-left:650px ;
+            border: 2px solid black;
+            height: 40px;
+            width: 130px;
+            
+        }
+        .lorem{
+            position: absolute;
+            z-index: 2;
+            margin-top: 280px;
+            margin-left: 420px;
+            color: white;
+        }
+        .two{
+            height: 150px;
+            width: 100%;
+            background-color: aqua;
+            display: flex;
+        }
+        .twoA{
+            height: inherit;
+            width: 25%;
+            background-color: white;
+            position: relative;
+        }
+        .rotate{
+            height: 40px;
+            width: 40px;
+            rotate: 45deg;
+            position: absolute;
+            margin-top: 10px;
+            margin-left: 100px;
+            border: 1px solid;
+        }
+        .sleek{
+            position: absolute;
+            margin-top: 60px;
+            margin-left: 80px;
+            color: red;
+        }
+        .sit{
+            position: absolute;
+            margin-top: 90px;
+            margin-left: 50px;
+        }
+        .twoB{
+            height: inherit;
+            width: 25%;
+            background-color: white;
+        }
+        .heart{
+            height: 40px;
+            width: 40px;
+            position: absolute;
+            margin-top: 10px;
+            margin-left: 100px;
+            border: 1px solid black;
+        }
+        .clear{
+            position: absolute;
+            margin-top: 60px;
+            margin-left: 80px;
+        }
+        .elit{
+            position: absolute;
+            margin-top: 90px;
+            margin-left: 50px;
+        }
+        .twoC{
+            height: inherit;
+            width: 25%;
+            background-color: white;
+        }
+        .bulb{
+            height: 40px;
+            width: 40px;
+            position: absolute;
+            margin-top: 10px;
+            margin-left: 100px;
+            border: 1px solid black;
+        }
+        .idea{
+            position: absolute;
+            margin-top: 60px;
+            margin-left: 80px;
+        }
+        .fuga{
+            position: absolute;
+            margin-top: 90px;
+            margin-left: 50px;
+        }
+        .twoD{
+            height: inherit;
+            width: 25%;
+            background-color: white;
+        }
+        .letter{
+            height: 40px;
+            width: 40px;
+            position: absolute;
+            margin-top: 10px;
+            margin-left: 100px;
+            border: 1px solid black;
+        }
+        .free{
+            position: absolute;
+            margin-top: 60px;
+            margin-left: 80px;
+        }
+        .error{
+            position: absolute;
+            margin-top: 90px;
+            margin-left: 50px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="one">
+        <img class="oneA" src="image/Foreground.png" alt="">
+        <img class="put" src="image/Put Your Image.png" alt="">
+        <button class="L1">L</button><button class="ogo">ogo</button>
+        <div class="oneB">
+            <a class="a1">Home</a>
+            <a class="a2">About</a>
+            <a class="a3">Contact</a>
+            <a class="a4">services</a>
+            <a class="a5">Blog</a>
+        </div>
+        <h4 class="our">Our Clients Are Our First Priority </h4>
+        <h1 class="sky">WELCOME TO SKY</h1>
+        <button class="b1"></button><button class="b2"></button><button class="b3"></button>
+        <p class="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Deserunt impedit tempore repudiandae repellendus maxime <br>tenetur mollitia officia facilis quasi laboriosam.</p>
+        <button class="b4">Get started now</button><button class="b5">Learn more</button>
+    </div>
+    <div class="two">
+          <div class="twoA">
+            <button class="rotate"></button>
+            <h4 class="sleek">Sleek design</h4>
+            <p class="sit">Lorem ipsum dolor sit  <br>adipisicing elit. Fuga error r<br></p>
+          </div>
+          <div class="twoB">
+            <button class="heart"></button>
+            <h4 class="clear">Clean code</h4>
+            <p class="elit">Lorem ipsum dolor sit  <br>adipisicing elit. Fuga error r<br></p>
+          </div>
+          <div class="twoC">
+            <button class="bulb"></button>
+            <h4 class="idea">Creative ideas</h4>
+            <p class="fuga">Lorem ipsum dolor sit  <br>adipisicing elit. Fuga error r<br></p>
+          </div>
+          <div class="twoD">
+            <button class="letter"></button>
+            <h4 class="free">free support</h4>
+            <p class="error">Lorem ipsum dolor sit  <br>adipisicing elit. Fuga error r<br></p>
+          </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .oneA{
+            height: 600px;
+           background-color: aqua;
+           display: flex;
+        }
+        .one1{
+            height: inherit;
+            width: 90%;
+            background-color: blue;
+            display: grid;
+            grid-template-columns: repeat(12);
+        }
+        .one2{
+            height: inherit;
+            width: 10%;
+            background-color: black;     
+        }
+        .a1{
+            margin-left: 50px;
+            color: white;
+        }
+        .a2{
+            margin-left: 50px;
+            color: white;
+            
+        }
+        .a3{
+            margin-left: 50px;
+            color: white;
+        }
+        .a4{
+            margin-left: 50px;
+            color: white;
+        }
+        .a5{
+            margin-left: 50px;
+            color: white;
+        }
+        
+        .one{
+            border: 4px solid black;
+            padding: 10px;
+        }
+        #two1{
+            grid-column: 1/8;
+            background-image: url(https://th.bing.com/th/id/R.0af6e8f3427b539c59896b333da0e912?rik=FZ5aNUbXlQ4DEw&riu=http%3a%2f%2f2.bp.blogspot.com%2f-TyavT0bgKe4%2fUbar7831w3I%2fAAAAAAAAAWY%2faU1oWZubJQw%2fs1600%2f9.jpg&ehk=f4oLPMk0MC3kW2f6W5%2fHBCtSM%2f85%2fJWOTJ9Ccl7Y%2b9c%3d&risl=&pid=ImgRaw&r=0);
+            background-size: cover;
+        }
+        #two2{
+            grid-column: 8/13;
+            background-image: url(https://i.pinimg.com/736x/a9/a8/6c/a9a86c79109499b9421f7d1c97ac2425--leopard-animal-the-leopard.jpg);
+            background-size: cover;
+        }
+        #two3{
+            grid-column: 1/4;
+            background-image: url(https://i.pinimg.com/736x/32/79/42/32794281d36064bf5ab26369e217978d--african-leopard-panthers.jpg);
+            background-size: cover;
+        }
+        #two4{
+            grid-column: 4/10;
+            background-image: url(https://th.bing.com/th/id/OIP.fwe9vMRy5BCXFQmNvUbbOwHaF6?pid=ImgDet&rs=1);
+            background-size: cover;
+        }
+        #two5{
+            grid-column: 10/13;
+            background-image: url(https://th.bing.com/th/id/R.d215142ed05476219fa934f0db9f8a69?rik=SeciuyOMJxBvmA&riu=http%3a%2f%2fcdn.playbuzz.com%2fcdn%2f9aa0b54c-f199-4543-8dfa-f2c28c5af221%2f2dc233e4-dbc2-409c-95e4-38df853fdf5e.jpg&ehk=UKtir1RThXnnqreCwxsi%2b%2fNMtnyKT9%2fQhw6kSSRuS2w%3d&risl=&pid=ImgRaw&r=0);
+            background-size: cover;
+        }
+        #two6{
+            grid-column: 1/7;
+            background-image: url(https://th.bing.com/th/id/OIP.tXWmMNKGmjR5anPevrvNNwHaEK?pid=ImgDet&rs=1);
+            background-size: cover;
+        }
+        #two7{
+            grid-column: 7/13;
+            background-image: url(https://wallpapercave.com/wp/wc1797446.jpg);
+            background-size: cover;
+        }
+        #two8{
+            grid-column: 1/5;
+            background-image: url(https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2015/06/shutterstock_306601151-1.jpg);
+            background-size: cover;
+        }
+        #two9{
+            grid-column: 5/9;
+            background-image: url(https://th.bing.com/th/id/OIP.Wlg80qOfvDNegsLzXjcVLgHaEo?pid=ImgDet&rs=1);
+            background-size: cover;
+        }
+        #two10{
+            grid-column: 9/13;
+            background-image: url(https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2015/06/shutterstock_132998426.jpg?w=1024&h=746);
+            background-size: cover;
+        }
+        @media (min-width:320px) and (max-width:480px){
+            .one1{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            #two1{
+                width: 100%;
+            }
+            #two2{
+                width: 100%;
+            }
+            #two3{
+                width: 100%;
+            }
+            #two4{
+                width: 100%;
+            }
+            #two5{
+                width: 100%;
+            }
+            #two6{
+                width: 100%;
+            }
+            #two7{
+                width: 100%;
+            }
+            #two8{
+                width: 100%;
+            }
+            #two9{
+                width: 100%;
+            }
+            #two10{
+                width: 100%;
+            }
+        }
+        @media (min-width:481px) and (max-width:768px){
+            .one1{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            #two1{
+                width: 50%;
+                background-color: red;
+            }
+            #two2{
+                width: 50%;
+            }
+            #two3{
+                width: 50%;
+            }
+            #two4{
+                width: 50%;
+            }
+            #two5{
+                width: 50%;
+            }
+            #two6{
+                width: 50%;
+            }
+            #two7{
+                width: 50%;
+            }
+            #two8{
+                width: 50%;
+            }
+            #two9{
+                width: 50%;
+            }
+            #two10{
+                width: 50%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="oneA">
+        <div class="one1">
+                <div class="one" id="two1">1</div>
+                <div class="one" id="two2">2</div>
+                <div class="one" id="two3">3</div>
+                <div class="one" id="two4">4</div>
+                <div class="one" id="two5">5</div>
+                <div class="one" id="two6">6</div>
+                <div class="one" id="two7">7</div>
+                <div class="one" id="two8">8</div>
+                <div class="one" id="two9">9</div>
+                <div class="one" id="two10">10</div>
+        </div>
+        <div class="one2">
+            <h3 style="color: white;">SHUTTER</h3>
+            <a class="a1" href="">Home</a><br>
+            <a class="a2" >PHOTOS</a><br>
+            <a class="a3" >About</a><br>
+            <a class="a4" >Blog</a><br>
+            <a class="a5" >Contact</a>
+        </div>
+    </div>
+</body>
+</html>
