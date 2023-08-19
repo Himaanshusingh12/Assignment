@@ -1,0 +1,735 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.one{
+    height: 50px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    position: relative;
+}
+.one .oneA{
+    height: inherit;
+    width: 70%;
+    background-color: black;
+}
+.oneB{
+    height: inherit;
+    width: 30%;
+    background-color: black;
+}
+.this{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+#face{
+    font-size: 20px;
+    margin-left: 170px;
+    margin-top: 10px;
+    position: absolute;
+    color: white;
+}
+#twi{
+    font-size: 20px;
+    margin-left: 210px;
+    position: absolute;
+    margin-top: 10px;
+    color: white;
+}
+#beh{
+    font-size: 20px;
+    margin-left:250px ;
+    position: absolute;
+    margin-top: 10px;
+    color: white;
+}
+#lin{
+    font-size: 20px;
+    margin-left: 290px;
+    position: absolute;
+    margin-top: 10px;
+    color: white;
+}
+.two{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    
+}
+video{
+    height: inherit;
+    width: 100%;
+    object-fit: fill;
+    position: absolute;
+    z-index: 1;
+}
+.two1{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.167);
+    position: absolute;
+    z-index: 2;
+}
+.edu{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: white;
+}
+.a1{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 20px;
+    color: white;
+}
+.a2{
+    position: absolute;
+    margin-left: 580px;
+    margin-top: 20px;
+    color: white;
+}
+.a3{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 20px;
+    color: white;
+}
+.a4{
+    position: absolute;
+    margin-left: 830px;
+    margin-top: 20px;
+    color: white;
+}
+.a5{
+    position: absolute;
+    margin-left: 930px;
+    margin-top: 20px;
+    color: white;
+}
+.a6{
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: 20px;
+    color: white;
+}
+.hello{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 40px;
+    z-index: 2;
+    color: white;
+}
+.to{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 40px;
+    z-index: 2;
+    color: white;
+}
+.ipsum{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 40px;
+    z-index: 2;
+    color: white;
+} 
+.join{
+    position: absolute;
+    z-index: 2;
+    height: 40px;
+    width: 150px;
+    border-radius: 40%;
+    margin-top: 250px;
+    margin-left: 70px;
+    color: white;
+    background-color: red;
+}
+.three{
+    z-index: 2;
+    position: absolute;
+    height: 200px;
+    margin-left: 80px;
+    width: 80%;
+    margin-top: 400px;
+    display: flex;
+}
+.threeA{
+    height: inherit;
+    width: 30%;
+    background-color: aqua;
+    margin-left: 20px;
+}
+.threeA1{
+    height: 80px;
+    width: 100%;
+    background-color: red;
+}
+.blue{
+    margin-left: 110px;
+    margin-top: 10px;
+}
+.threeA2{
+    height: 120px;
+    width: 100%;
+    background-color: red;
+}
+.threeB{
+    height: inherit;
+    width: 30%;
+    background-color: aliceblue;
+    margin-left: 40px;
+}
+.threeB1{
+    height: 80px;
+    width: 100%;
+    background-color: red;
+}
+.service2{
+    margin-left: 110px;
+    margin-top: 10px;
+}
+.threeB2{
+    height: 120px;
+    width: 100%;
+    background-color: red;
+}
+.threeC{
+    height: inherit;
+    width: 30%;
+    background-color: chartreuse;
+    margin-left: 40px;
+}
+.threeC1{
+    height: 80px;
+    width: 100%;
+    background-color: red;
+}
+.service3{
+    margin-left: 110px;
+    margin-top: 10px;
+}
+.threeC2{
+    height: 120px;
+    width: 100%;
+    background-color: red;
+}
+.four{
+    height: 700px;
+    width: 100%;
+    background-color:aqua;
+    position: relative;
+    display: flex;
+}
+.meeting{
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    z-index: 1;
+}
+.up{
+    position: absolute;
+    z-index: 2;
+    margin-top: 110px;
+    margin-left: 400px;
+    color: white;
+}
+.fourA{
+    height: 550px;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    margin-top: 150px;
+    display: flex;
+}
+.fourA1{
+    height:250px ;
+    width: 20%;
+    background-color: white;
+    margin-left: 20px;
+}
+.cat{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+h5{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.all{
+    margin-top: 20px;
+    margin-left:20px ;
+    border-radius: 10%;
+    color: white;
+    background-color: red;
+    width: 180px;
+    height: 30px;
+}
+.fourA2{
+    height: 550px;
+    width: 80%;
+}
+.fourA21{
+    height: 250Px;
+    width: 100%;
+    margin-left: 20px;
+    display: flex;
+}
+.four2A{
+    height: inherit;
+    width: 50%;
+    background-color: chartreuse;
+}
+.four2A1{
+    height: 50%;
+    width: 100%;
+    background-color: aqua;
+}
+.nam{
+    height: 100%;
+    width: 100%;
+}
+.four2A2{
+    height: 50%;
+    width: 100%;
+    background-color: red;
+    display: flex;
+}
+.four2A21{
+    height: 100%;
+    width: 20%;
+    background-color: white;
+}
+.four2A22{
+    height: 100%;
+    width: 80%;
+    background-color: white;
+}
+.four2B{
+    height: inherit;
+    width: 50%;
+    background-color:white;
+    margin-left: 20px;
+}
+.four2B1{
+    height: 50%;
+    width: 100%;
+    background-color: red;
+}
+.tepsum{
+    height: 100%;
+    width: 100%;
+}
+.four2B2{
+    height: 50%;
+    width: 100%;
+    background-color:red;
+    display: flex;
+}
+.four2B21{
+    height: 100%;
+    width: 20%;
+    background-color: white;
+}
+.four2B22{
+    height: 100%;
+    width: 80%;
+    background-color: white;
+}
+.fourA22{
+    height: 250px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+}
+.four2C{
+    height: inherit;
+    width: 50%;
+    background-color: chartreuse;
+}
+.four2C1{
+    height: 50%;
+    width: 100%;
+    background-color: red;
+}
+.quis{
+    height: 100%;
+    width: 100%;
+}
+.four2C2{
+    height: 50%;
+    width: 100%;
+    background-color:red;
+    display: flex;
+}
+.fourC21{
+    height: 100%;
+    width: 20%;
+    background-color: white;
+}
+.fourC22{
+    height: 100%;
+    width: 80%;
+    background-color: white;
+}
+.four2D{
+    height: inherit;
+    width: 50%;
+    background-color: crimson;
+    margin-left: 20px;
+}
+.four2D1{
+    height: 50%;
+    width: 100%;
+    background-color: blue;
+}
+.leo{
+    height: 100%;
+    width: 100%;
+}
+.four2D2{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.four2D21{
+    height: 100%;
+    width: 20%;
+    background-color: white;
+}
+.four2D22{
+    height: 100%;
+    width: 80%;
+    background-color: white;
+}
+.five{
+    height: 450px;
+    width: 100%;
+    position: relative;
+}
+.apply{
+        height: inherit;
+        width: inherit;
+        z-index: 1;
+        position: absolute;
+ }
+ .fiveA{
+    height: 350px;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    margin-top: 40px;
+    display: flex;
+ }
+ .fiveA1{
+    height: inherit;
+    width: 60%;
+    margin-left: 50px;
+ }
+ .fiveA11{
+    height: 50%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.167);
+    position: relative;
+ }
+ .bachelor{
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    position: absolute;
+}
+.vel{
+    color: white;
+    margin-left:20px ;
+    margin-top: 50px;
+    position: absolute;
+}
+.us{
+    height: 30px;
+    width: 120px;
+    color: white;
+    background-color: red;
+    margin-top: 120px;
+    margin-left: 10px;
+    border-radius: 40%;
+}
+ .fiveA12{
+    height: 50%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.167) ;
+    position: relative;
+    margin-top: 10px;
+ }
+ .degree{
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    position: absolute;
+}
+.minima{
+    color: white;
+    margin-left:20px ;
+    margin-top: 60px;
+    position: absolute;
+}
+.nec{
+    height: 30px;
+    width: 120px;
+    color: white;
+    background-color:orange;
+    margin-top: 130px;
+    margin-left: 10px;
+    border-radius: 40%;
+}
+ .fiveA2{
+    height: inherit;
+    width: 40%;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+ .templet{
+    margin-top: 20px;
+    margin-left: 10px;
+    color: yellow;
+}
+.single{
+    margin-top: 20px;
+    margin-left: 10px;
+    color:black;
+}
+.friends{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.six{
+    height: 300px;
+    width: 100%;
+    background-color: aqua;
+    position: relative;
+}
+.bg{
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    z-index: 1;
+}
+.our{
+    position: absolute;
+    z-index: 2;
+    margin-top: 30px;
+    margin-left: 100px;
+    color: white;
+}
+.sixA{
+    height: 200px;
+    width: 80%;
+    position: absolute;
+    z-index: 2;
+    margin-top: 70px;
+    margin-left: 90px;
+    display: flex;
+}
+.sixA1{
+    height: inherit;
+    width: 25%;
+    background-color: aqua;
+}
+.sixA11{
+    height: 50%;
+    width: 100%;
+    background-color: red;
+}
+.a{
+    height: 100%;
+    width: inherit;
+}
+.sixA12{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+}
+.visit{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.sixA2{
+    height: inherit;
+    width: 25%;
+    background-color: red;
+    margin-left: 10px;
+}
+.sixA21{
+    height: 50%;
+    width: 100%;
+    background-color: yellow;
+}
+.sixA22{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+}
+.sixA3{
+    height: inherit;
+    width: 25%;
+    background-color: aqua;
+    margin-left: 10px;
+}
+.sixA31{
+    height: 50%;
+    width: 100%;
+    background-color: yellow;
+}
+.sixA32{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+}
+.sixA4{
+    height: inherit;
+    width: 25%;
+    background-color: aqua;
+    margin-left: 10px;
+}
+.sixA41{
+    height: 50%;
+    width: 100%;
+    background-color: yellow;
+}
+.sixA42{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+}
+.seven{
+    height: 400px;
+    width: 100%;
+    background-color: aqua;
+    position: absolute;
+}
+.fact{
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    z-index: 1;
+}
+.sevenA{
+    height: 350px;
+    width: 90%;
+    position: absolute;
+    z-index: 2;
+    margin-top: 50px;
+    margin-left: 60px;
+    display: flex;
+}
+.sevenA1{
+    height: inherit;
+    width: 60%;
+    position: relative;
+}
+.university{
+    margin-left: 60px;
+    color: white;
+}
+.sevenA11{
+    height: 80px;
+    width: 200px;
+    background-color:  rgba(255, 255, 255, 0.137);
+    margin-left: 60px;
+    margin-top: 40px;
+    position: absolute;
+}
+.sevenA12{
+    height: 80px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.137);
+    margin-left: 290px;
+    margin-top: 60px;
+    position: absolute;
+}
+.sevenA13{
+    height: 80px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.137);
+    margin-left: 290px;
+    margin-top: 160px;
+    position: absolute;
+}
+.sevenA14{
+    height: 80px;
+    width: 200px;
+    background-color:rgba(255, 255, 255, 0.137) ;
+    margin-left: 60px;
+    margin-top: 140px;
+    position: absolute;
+}
+.sevenA2{
+    height:200px;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.137);
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.tushar{
+    height: 350px;
+    width: 100%;
+    margin-top: 400px;
+    position: relative;
+}
+.music{
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    z-index: 1;
+}
+.tusharA{
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    margin-top: 50px;
+    display: flex;
+}
+.tusharA1{
+    height: inherit;
+    width: 70%;
+    background-color: white;
+    margin-left: 40px;
+    margin-right: 15px;
+}
+.lets{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.prev{
+      margin-top: 30px;
+      margin-left: 30px;
+}
+.xyz{
+    margin-left: 20px;
+    margin-top: 30px;
+    height: 30px;
+    width: 150px;
+    color: white;
+    background-color: red;
+}
+.tusharA2{
+    height: inherit;
+    width: 30%;
+    background-color: red;
+    margin-right: 40px;
+}
+
+
+
+

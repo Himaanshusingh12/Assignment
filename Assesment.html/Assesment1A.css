@@ -1,0 +1,675 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    display: grid;
+    grid-template-columns: repeat(12);
+}
+.one{
+    border: 2px solid black;
+    padding: 10px;
+}
+#two-1{
+    grid-column: 1/13;
+    height: 50px;
+    position: relative;
+}
+.oneA{
+    height: inherit;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+}
+.this{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+#face{
+    font-size: 20px;
+    margin-left: 900px;
+    margin-top: 10px;
+    position: absolute;
+    color: white;
+}
+#twi{
+    font-size: 20px;
+    margin-left: 950px;
+    position: absolute;
+    margin-top: 10px;
+    color: white;
+}
+#beh{
+    font-size: 20px;
+    margin-left:1000px ;
+    position: absolute;
+    margin-top: 10px;
+    color: white;
+}
+#lin{
+    font-size: 20px;
+    margin-left: 1050px;
+    position: absolute;
+    margin-top: 10px;
+    color: white;
+}
+#two-2{
+    grid-column: 1/13;
+    height: 500px;
+}
+video{
+    height: 480px;
+    width: 100%;
+    object-fit: fill;
+}
+.hello{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 40px;
+    z-index: 2;
+    color: white;
+}
+.to{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 40px;
+    z-index: 2;
+    color: white;
+}
+.ipsum{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 40px;
+    z-index: 2;
+    color: white;
+} 
+.join{
+    position: absolute;
+    z-index: 2;
+    height: 40px;
+    width: 150px;
+    border-radius: 40%;
+    margin-top: 250px;
+    margin-left: 70px;
+    color: white;
+    background-color: red;
+}
+.three{
+    z-index: 2;
+    position: absolute;
+    height: 200px;
+    margin-left: 80px;
+    width: 80%;
+    margin-top: 400px;
+    display: flex;
+}
+.threeA{
+    height: inherit;
+    width: 30%;
+    background-color: aqua;
+    margin-left: 20px;
+}
+.threeA1{
+    height: 80px;
+    width: 100%;
+    background-color: red;
+}
+.blue{
+    margin-left: 110px;
+    margin-top: 10px;
+}
+.threeA2{
+    height: 120px;
+    width: 100%;
+    background-color: red;
+}
+.threeB{
+    height: inherit;
+    width: 30%;
+    background-color: aliceblue;
+    margin-left: 40px;
+}
+.threeB1{
+    height: 80px;
+    width: 100%;
+    background-color: red;
+}
+.service2{
+    margin-left: 110px;
+    margin-top: 10px;
+}
+.threeB2{
+    height: 120px;
+    width: 100%;
+    background-color: red;
+}
+.threeC{
+    height: inherit;
+    width: 30%;
+    background-color: chartreuse;
+    margin-left: 40px;
+}
+.threeC1{
+    height: 80px;
+    width: 100%;
+    background-color: red;
+}
+.service3{
+    margin-left: 110px;
+    margin-top: 10px;
+}
+.threeC2{
+    height: 120px;
+    width: 100%;
+    background-color: red;
+}
+#two-3{
+    grid-column: 1/13;
+    height: 800px;
+    position: relative;
+}
+.meeting{
+    height: inherit;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.up{
+    position: absolute;
+    z-index: 2;
+    margin-top: 110px;
+    margin-left: 400px;
+    color: white;
+}
+.four{
+    height: 500px;
+    width: 100%;
+    background-color: rgba(0, 255, 255, 0);
+    z-index: 2;
+    margin-top: 180px;
+    display: flex;
+    position: relative;
+}
+.fourA{
+    height: 250px;
+    width: 20%;
+    background-color: blue;
+    margin-left: 10px;
+}
+.cat{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+h5{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.all{
+    margin-top: 20px;
+    margin-left:20px ;
+    border-radius: 10%;
+    color: white;
+    background-color: red;
+    width: 180px;
+    height: 30px;
+}
+.fourB{
+    height: inherit;
+    width: 80%;
+    background-color: brown;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+.fourB1{
+    height: 250px;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+}
+.fourB11{
+    height: 250px;
+    width: 50%;
+    background-color: pink;
+}
+.fourB111{
+    height: 150px;
+    width: 100%;
+    background-color: blue;
+}
+.nam{
+    height: 100%;
+    width: 100%;
+}
+.fourB121{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+    position: relative;
+    display: flex;
+}
+.fourB1211{
+    height: 100px;
+    width: 20%;
+    background-color: white;
+}
+.fourB1212{
+    height: 100px;
+    width: 80%;
+    background-color: white;
+}
+.fourB12{
+    height: 250px;
+    width: 50%;
+    background-color: chartreuse;
+    margin-left: 10px;
+}
+.fourB123{
+    height: 150px;
+    width: 100%;
+    background-color: pink;
+}
+.tepsum{
+    height: 100%;
+    width: 100%;
+}
+.fourB124{
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+}
+.fourB1241{
+    height: 100px;
+    width: 20%;
+    background-color: white;
+}
+.fourB1242{
+    height: 100px;
+    width: 80%;
+    background-color: white;
+}
+.fourB2{
+    height: 250px;
+    width: 100%;
+    background-color: red;
+    margin-top: 10px;
+    display: flex;
+
+}
+.fourB21{
+    height: 250px;
+    width: 50%;
+    background-color: yellow;
+}
+.fourB215{
+    height: 150px;
+    width: 100%;
+    background-color: red;
+}
+.quis{
+    height: 100%;
+    width: 100%;
+}
+.fourB216{
+    height: 100px;
+    width: 100%;
+    background-color:yellow;
+    display: flex;
+}
+.fourB2161{
+    height: 100px;
+    width: 20%;
+    background-color: white;
+}
+.fourB2162{
+    height: 100px;
+    width: 80%;
+    background-color: white;
+}
+.fourB22{
+    height: 250px;
+    width: 50%;
+    background-color: chartreuse;
+    margin-left: 10px;
+}
+.fourB227{
+    height: 150px;
+    width: 100%;
+    background-color: pink;
+}
+.fourB228{
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+}
+.fourB2281{
+    height: 100px;
+    width: 20%;
+    background-color: white;
+}
+.fourB2282{
+    height: 100px;
+    width: 80%;
+    background-color: white;
+}
+#two-4{
+    grid-column: 1/13;
+    height: 450px;
+    position: relative;
+}
+.apply{
+    height: inherit;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+}
+.fiveA{
+    height: 350px;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    margin-top: 40px;
+    display: flex;
+ }
+ .fiveA1{
+    height: inherit;
+    width: 60%;
+    margin-left: 50px;
+ }
+ .fiveA11{
+    height: 160px;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.167);
+    position: relative;
+ }
+ .bachelor{
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    position: absolute;
+}
+.vel{
+    color: white;
+    margin-left:20px ;
+    margin-top: 50px;
+    position: absolute;
+}
+.us{
+    height: 30px;
+    width: 120px;
+    color: white;
+    background-color: red;
+    margin-top: 120px;
+    margin-left: 10px;
+    border-radius: 40%;
+}
+ .fiveA12{
+    height: 170px;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.167) ;
+    position: relative;
+    margin-top: 10px;
+ }
+ .degree{
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    position: absolute;
+}
+.minima{
+    color: white;
+    margin-left:20px ;
+    margin-top: 60px;
+    position: absolute;
+}
+.nec{
+    height: 30px;
+    width: 120px;
+    color: white;
+    background-color:orange;
+    margin-top: 130px;
+    margin-left: 10px;
+    border-radius: 40%;
+}
+ .fiveA2{
+    height: inherit;
+    width: 40%;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+ .templet{
+    margin-top: 20px;
+    margin-left: 10px;
+    color: yellow;
+}
+.single{
+    margin-top: 20px;
+    margin-left: 10px;
+    color:black;
+}
+.friends{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#two-5{
+    grid-column: 1/13;
+    height: 400px;
+    position: relative;
+}
+.bg{
+    height: inherit;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.our{
+    position: absolute;
+    z-index: 2;
+    margin-top: 30px;
+    margin-left: 100px;
+    color: white;
+}
+.sixA{
+    height: 250px;
+    width: 100%;
+    margin-top: 60px;
+    z-index: 2;
+    position: relative;
+    display: flex;
+}
+.sixA1{
+    height: inherit;
+    width: 25%;
+    background-color: blue;
+    margin-left: 30px;
+}
+.sixA11{
+     height: 150px;
+     width: 100%;
+     background-color: yellow;
+}
+.a{
+    height: 150px;
+    width: 100%;
+}
+.visit{
+        position: absolute;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+.sixA12{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+.sixA2{
+    height: inherit;
+    width: 25%;
+    background-color: red;
+    margin-left: 20px;
+}
+.sixA21{
+    height: 150px;
+    width: 100%;
+    background-color: blue;
+}
+.sixA22{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+.sixA3{
+    height: inherit;
+    width: 25%;
+    background-color: pink;
+    margin-left: 20px;
+}
+.sixA31{
+    height: 150px;
+    width: 100%;
+    background-color: blue;
+}
+.sixA32{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+.sixA4{
+    height: inherit;
+    width: 25%;
+    background-color: yellow;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+.sixA41{
+    height: 150px;
+    width: 100%;
+    background-color: blue;
+}
+.sixA42{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+#two-6{
+    grid-column: 1/13;
+    height: 400px;
+    position: relative;
+}
+.fact{
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.sevenA{
+    height: 350px;
+    width: 90%;
+    position: absolute;
+    z-index: 2;
+    margin-top: 50px;
+    margin-left: 60px;
+    display: flex;
+}
+.sevenA1{
+    height: inherit;
+    width: 60%;
+    position: relative;
+}
+.university{
+    margin-left: 60px;
+    color: white;
+}
+.sevenA11{
+    height: 80px;
+    width: 200px;
+    background-color:  rgba(255, 255, 255, 0.137);
+    margin-left: 60px;
+    margin-top: 80px;
+    position: absolute;
+}
+.sevenA12{
+    height: 80px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.137);
+    margin-left: 290px;
+    margin-top: 90px;
+    position: absolute;
+}
+.sevenA13{
+    height: 80px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.137);
+    margin-left: 290px;
+    margin-top: 180px;
+    position: absolute;
+}
+.sevenA14{
+    height: 80px;
+    width: 200px;
+    background-color:rgba(255, 255, 255, 0.137) ;
+    margin-left: 60px;
+    margin-top: 170px;
+    position: absolute;
+}
+.sevenA2{
+    height:200px;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.137);
+    margin-left: 40px;
+    margin-top: 50px;
+}
+#two-7{
+    grid-column: 1/13;
+    height: 350px;
+    position: relative;
+}
+.music{
+    height: inherit;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.tusharA{
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    margin-top: 50px;
+    display: flex;
+}
+.tusharA1{
+    height: inherit;
+    width: 70%;
+    background-color: white;
+    margin-left: 40px;
+    margin-right: 15px;
+}
+.lets{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.prev{
+      margin-top: 30px;
+      margin-left: 30px;
+}
+.xyz{
+    margin-left: 20px;
+    margin-top: 30px;
+    height: 30px;
+    width: 150px;
+    color: white;
+    background-color: red;
+}
+.tusharA2{
+    height: inherit;
+    width: 30%;
+    background-color: red;
+    margin-right: 40px;
+}
+
