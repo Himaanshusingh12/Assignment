@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assesment2.js">
+</head>
+<body>
+    <table cellspacing="10">
+        <form method="post" action="images/heading-bg.jpg" onsubmit="return Validdata()">
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" id="fname"></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" id="lname"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" id="email"></td>
+            </tr>
+            <tr>
+                <td>Mobile</td>
+                <td><input type="text" id="number"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><label>Male</label>
+                <input type="radio" id="gen" name="abc">
+                <label>Female</label>
+                <input type="radio" id="gen" name="abc">
+            </tr>
+            <tr>
+                <td>Date of birth</td>
+                <td><input type="text" id="birth"></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><textarea name="" id="add"></textarea></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><input type="text" id="cit"></td>
+            </tr>
+            <tr>
+                <td>Area pin</td>
+                <td><input type="text" id="area"></td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td><input type="text" id="stat"></td>
+            </tr>
+            <tr>
+                <td>Qualification</td>
+                <td>
+                    <select name="" id="qua">
+                        <option>Select qualification</option>
+                        <option>BSC</option>
+                        <option>Bcom</option>
+                        <option>BA</option>
+                        <option>MA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Specializiation</td>
+                <td><input type="checkbox">
+                <label for="">Computer science</label><br>
+                <input type="checkbox">
+                <label for="">Information Techonlogy</label><br>
+                <input type="checkbox">
+                <label for="">Computer Archecture</label><br>
+                <input type="checkbox">
+                <label for="">Tele Communication</label>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="text" id="pass"></td>
+            </tr>
+            <tr>
+                <td><input type="submit"></td>
+            </tr>
+        </form>
+    </table>
+    <script>
+        function Validdata() {
+            var fname = document.getElementById("fname").value;
+            if (fname == "") {
+                alert("enter your first name");
+                document.getElementById("fname").focus();
+                return false;    
+            }
+            var lname = document.getElementById("lname").value;
+            if (lname == "") {
+                alert("enter your last name");
+                document.getElementById("lname").focus();
+                return false;    
+            }
+            var email = document.getElementById("email").value;
+            if (email == "") {
+                alert("enter your email id");
+                document.getElementById("email").focus();
+                return false;    
+            }
+            var mobile = document.getElementById("number").value;
+            if (mobile == "") {
+                alert("enter your Mobile no");
+                document.getElementById("number").focus();
+                return false;    
+            }
+            var date = document.getElementById("birth").value;
+            if (date == "") {
+                alert("enter your date of birth");
+                document.getElementById("birth").focus();
+                return false;    
+            }
+            var address = document.getElementById("add").value;
+            if (address == "") {
+                alert("enter your address");
+                document.getElementById("add").focus();
+                return false;    
+            }
+            var city = document.getElementById("cit").value;
+            if (city == "") {
+                alert("enter your city name");
+                document.getElementById("cit").focus();
+                return false;    
+            }
+            var pin = document.getElementById("area").value;
+            if (pin == "") {
+                alert("enter your area");
+                document.getElementById("area").focus();
+                return false;    
+            }
+            var state = document.getElementById("stat").value;
+            if (state == "") {
+                alert("enter your state");
+                document.getElementById("stat").focus();
+                return false;    
+            }
+            var password = document.getElementById("pass").value;
+            if (password == "") {
+                alert("enter your password");
+                document.getElementById("pass").focus();
+                return false;    
+            }
+        }
+    </script>
+   
+</body>
+</html>
