@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="one.css">
+    <script src="one.js"></script>
+</head>
+<body>
+    <table>
+        <!-- DATE INTERVAL -->
+        <tr align="center">
+            <th colspan="2" class="heading">Date Interval</th>
+        </tr>
+        
+        <!-- FROM -->
+        <tr>
+            <td class="fw">From:</td>
+            <td><input type="date" id="fromDate" class="form-control"></td>
+        </tr>
+        
+        <!-- TO -->
+        <tr>
+            <td class="fw">To:</td>
+            <td><input type="date" id="toDate" class="form-control"></td>
+        </tr>
+        
+        <!-- CALCULATE -->
+        <tr align="center"> 
+          <td colspan="2">
+            <input type="submit" value="Calculate" id="calculate" onclick="calculateDataDetails()">
+        </td>
+    </tr>
+    
+    <!-- RESULT -->
+    <tr>
+        <td colspan="2">
+            <div id="result" class="alert alert-info" style="display: none;"></div>
+        </td>
+    </tr>
+</table>
+
+</body> 
+</html>
+</body>
+</html>
