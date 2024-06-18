@@ -1,191 +1,193 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <style>
-      .nav-link{
-            margin-left: 40px;
-        }
-        /* #one{
-            height: 650px;
-            width: 100%;
-            margin: 70px;
-        }
-        .navbar-brand{
-          margin-left: 58px;
-        }
-        .nav-link{
-          margin-left: 60px;
-        }
-        #PWU{
-        margin-top: 100px;
-        text-align: center;
-        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.00938em;
-        font-size: 18px;
-        text-align: center;
-        text-transform: uppercase;
-        text-decoration: underline;
-       }
-        .col-md-6{
-          position: relative;
-        }
-        .xyz{
-          border: 1px solid rgb(188, 182, 176);
-          border-radius: 15px;
-          margin-left: 15px;
-          margin-top: 30px;
-          height: 300px;
-          width: 320px;
-        }
-        .font{
-          height: 50px;
-          width: 320px;
-          color: white;
-          background-color: rgba(128, 128, 128, 0.852);
-          display: flex;
-          justify-content: center;
-          place-items: center;
-          border-radius: 0 0 15px 15px;
-          margin-left: 15px;
-          position: absolute;
-          top: 280px;
-          } */
-        </style>
+    <title>Categories|Dmart</title>
+    <link rel="icon" href="https://companieslogo.com/img/orig/DMART.NS-6f885d00.png?t=1599629043">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <!-- Fontawesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="dmartcss.css">
 </head>
 <body>
-  <!-- Navbar start black background with white text -->
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="javascript:void(0)"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMQAAAAuCAMAAABAp0a9AAAAUVBMVEUAAAAAbTUAbDUAbTMAbTMAbTEAbTIAbjUAbTIAbTIAbTIAbTIAbTIAbTIAbTIAbjUAbjAAbjEAbTEAbTIAbTIAbTIAbTMAbTIAbTIAbTMAbTJazT9DAAAAGnRSTlMAFQjQvUmzJtruiOT2aFwdNy5AlKhTdMSefipyKHAAAAZBSURBVGje1ZqLcqMgFIbDAQVERPHO+z/oaiJ3NW3Tndn9p502SUW+c5fp4ydCzeM/F6UPNQB06vH/is5YaYZaMcDjn9E6SadpXatNqxz1pZ1VSZDkbYf7UwgoRl0U13xIaz2Ov81vzsQFLqfuZIsKHgg9SlM90PabyjfTYS6EkI8rTUIIzuhfhvASS5tBjEO5yr42vJJVueh8Oc3NJoyughE/baQfvyE0NQmEwE8JHjpkhZSiW7i9oKInUTGaXbW8csRr3fE3knPCpooh6gmeQl1TzR6kpLmt8euT7nRpaZ4icJ5Q2DJ+KGgrsS00JRAyCpraUsz0LGIWgy8yvzqWa+4QTfUhgj7iQeYQXiCFpSBZeBc1oeIiN2GwLoSzIMbHp8snCH6deswgImlmKZZ0O4vRm0nX83iZjbkOe+ks8wmCvwsvMohYhTDnkaH5FomwMHpRfQ4N6MKAtnp9IETuIbwmd0cVLbA8Axr2H7laVxPq4qQ0WTH6GUT5VQg0m0PRR90IxxB4ltraOA2QO8JK6M8S+y1Ebjjydec3HqJuT9a7zBhAiioE93sHOP5gOJbRbyFacbIdQE5nt1yNVVYRABsvmQxUFWGcc1yuLYTvd1QpRTv0fDH25VxsPxVCFmIEQAjuIMDF0xpEU+VF80v6sN/H7VDWxquKWu8c+G8JrmpqwRgTfL//+LTBBjExTKx5yTKUpLMQp91pMXnRR60XOs04P7j0mUmYyBoFmrCJxLTPMI/cPFcVrWunHvsewtcn9I0uNFTW5JwmjhByTs2iibHKS1cnDggb2myDmARj/LgBxpjhe4iR290oN/+1obJ4omIzssLOFUlpHxCJa8Vh17mfZFXWLpnSrlPZTGbbhlXXtYct5o7SroNbiII7jznfV6FkmtpdvW3BZ7fogvDeWweU1rfUvz83Cva1C+IuSzrz2nIHsQtIMmZaY59AaDdAaWfQSHA2iFcP5a6rovZEHmDTjLXuHr61K4s42TfI4dHkMmQh0HuINoUABLHQSRatQe4xGtCZ7Ra9SdoUGt0aPgeWMAZtPeCc1+INxHgHcdhN94nSKlu9WkDHfXH2jsAQ9JHmbgYm4CCsiNStlpP6NoQWSU7QYixCjQXKNzHuMMncVdh9uzl2uoPAyLLbDbhHzFuIerxJbKG+ONOQYxRoebRZKO3Oxrxw5a7PIXzzv4c48W/Dkz4BmZLF2d6PbOf2rigcjuZ+PMwZZne/bFr9McQUD6TdMJNUcx8GFOW2ePp0kk9HuPeZ7XYoQ1iZuYDA6ucQfRzAaGxyFZAM4rOKRpb9deFTnGLfKLyQlhWx2CGE6wc/hgASV9j3kt7Emvs6VNo2ZSu/e70LigXzeg+aoRl+G8JbbX6NwgoFUk4QV9gBwkKzUz1Tq0pSlWsbRXaiWDuAJYZQ34WQ+ehURxVmIuWZ5iYee5dsZhGB4WFIGsUojrSjWYn1Y0f5c4g+GmWgLc4VzP/EmtyWVaf+Is+0ZQDvJw9B8aee6Nh3T7qA2c05R2YZsEZjFSLu878DUUVNFxWX0hBUWNOET0F5a5PRw2txgA52czFE9ylEwaN5pMGXItQdDUbjS+NcIWiUaL5RrLGzFU4gmK0sP4PocDLCdfRSEFhZ6JOTgT6yjXcw9PFNKIshWvERRIu9198KggBkQZ7L3BG+ZYvOQnhKbRIIft+x5zsI1LCYAaoyF9m+9u+SNP40CNP8tKw/PefUQTgRiNJwhgOqfgOhrpod0MZNwBXYW7M7vVABp56X/ugmP1ccg6GWS1tvo0Qushkl7jbCruzithh3Nevgj309GLqXfS5LColiz5XhdJaRQSYbsepiEobHFXlMK3RaqCuIIHKJ3l8K7+QOR4ZsDubxceYQNQpprOr9jGGypWtsUXAoyuIl/GRW92MhG3QFgSsdhAV5o7KzER1DUJY9OSzRfA+V8RoQDBZJFAHi/sIruqzme7EWGM/zjJngnAvG8Pay7KdChZcsDL9Rs/uYDCVJKvXEmU7ewaQchu0vX6EAEltzTyg48Hg2n0Y8xXGRFcSVu4hp4EEV2qX2YyhKlTo7ikFvBa+zkOzS/L8nQCEEsCeZTZymH0jZS3qcbBHG5v718A6+E2XSVYkxLvuG/kP/2fCJ/gA4IBwj83FAYQAAAABJRU5ErkJggg==" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+     <!-------------------------nav---------------------->
+  <nav class="navbar navbar-expand-lg  bg-body-tertiary mynav">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="mynavbar">
-        <ul class="navbar-nav me-auto">
+      <a class="navbar-brand" href="index.html"><img src="./image/WhatsApp Image 2024-06-18 at 9.46.20 AM (1).jpeg"> </a>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="About us.html">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="categories.html">Categories</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="dmart social.html">Social Outreach</a>
+            <a class="nav-link " aria-current="page" href="aboutus.html">ABOUT US</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="partnerwithus.html">Partner With us</a>
+            <a class="nav-link" href="categories.html">CATEGORIES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="dmart careers.html">Career</a>
+            <a class="nav-link " aria-current="page" href="social_OutReach.html">SOCIAL OUTREACH</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="feedback1.html">Feedback</a>
+            <a class="nav-link" href="partners.html">PARTNERS</a>
           </li>
-          <li>
-            <i class="fa-brands fa-facebook" style="color: white; margin-left: 40px; font-size: 30px;"></i>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="careers.html" target="_blank">CAREERS</a>
           </li>
-          <li>
-            <i class="fa-brands fa-linkedin" style="color: white; margin-left: 40px; font-size: 30px;"></i>
+          <li class="nav-item">
+            <a class="nav-link" href="feedback.html">FEEDBACK</a>
           </li>
-        </ul> 
+         </ul>
+        
+        <div class="soical-icon d-flex">
+          <a href="https://www.facebook.com/Avenue-Supermarts" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+          <a href="https://www.linkedin.com/company/avenue-supermarts-ltd-dmart/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+   
+
       </div>
     </div>
   </nav>
-  <!-- Navbar end -->
+  <!------------------------- store categories---------------------->
+  <h5 class="page-title">STORE CATEGORIES</h5>
+  <div class="container">
 
-  <!-- Categories section start -->
+    <div class="row store-perent">
+      <div class="col-md-3 store">
+        <img class="imgcss" src="https://www.dmartindia.com/static/media/GROCERY%20&%20STAPLES.88be12a7.jpg" alt="">
+        <h6>GROCERY & STAPLES</h6>
+      </div>
+      <div  class="col-md-3 store">
+        <img class="imgcss" src="https://www.dmartindia.com/static/media/DAILY%20ESSENTIALS.e203cb84.jpg" alt="">
+        <h6>DAILY ESSENTIALS</h6>
+      </div>
+      <div class="col-md-3 store">
+        <img class="imgcss" src="https://www.dmartindia.com/static/media/DAIRY%20&%20FROZEN.41fe6246.jpg" alt="">
+        <h6>DAIRY & FROZEN</h6>
+      </div>
+      <div class="col-md-3 store">
+        <img class="imgcss" src="https://www.dmartindia.com/static/media/DMART%20BRANDS.d0b4c9ca.jpg" alt="">
+        <h6>DMART BRANDS</h6>
+      </div>
+      <div class="col-md-3 store">
+        <img class="imgcss" src="image/WhatsApp Image 2024-06-18 at 9.46.21 AM (2).jpeg" alt="">
+        <h6>HOME & PERSONAL CARE</h6>
+      </div>
+      <div class="col-md-3 store">
+        <img class="imgcss" src="image/WhatsApp Image 2024-06-18 at 9.46.19 AM (1).jpeg" alt="">
+        <h6>BED & BATH</h6>
+      </div>
+      <div class="col-md-3 store">
+        <img class="imgcss" src="image/WhatsApp Image 2024-06-18 at 9.46.19 AM.jpeg" alt="">
+        <h6>HOME APPLIANCES</h6>
+      </div>
+      <div class="col-md-3 store">
+        <img class="imgcss" src="image/WhatsApp Image 2024-06-18 at 9.46.21 AM.jpeg" alt="">
+        <h6>CROCKERY</h6>
+      </div>
+      <div class="col-md-3 store">
+        <img class="imgcss" src="image/WhatsApp Image 2024-06-18 at 9.46.22 AM.jpeg" alt="">
+        <h6>FOOTWEAR</h6>
+      </div>
+      <div class="col-md-3 store">
+        <img class="imgcss" src="https://www.dmartindia.com/static/media/luggage.4918bf6c.jpg" alt="">
+        <h6>LUGGAGE</h6>
+      </div>
+      <div class="col-md-3 store">
+        <img class="imgcss" src="https://www.dmartindia.com/static/media/toys.9758d08b.jpeg" alt="">
+        <h6>TOYS & GAMES</h6>
+      </div>
+      <div class="col-md-3 store">
+        <img class="imgcss" src="https://www.dmartindia.com/static/media/plastics.d88cb67f.jpeg" alt="">
+        <h6>PLASTIC CONTAINERS</h6>
+      </div>
+      <div class="col-md-3 store">
+        <img class="imgcss" src="https://www.dmartindia.com/static/media/kids-clothing.2a98cc19.jpg" alt="">
+        <h6>KID'S APPAREL</h6>
+      </div>
+      <div class="col-md-3 store">
+        <img class="imgcss" src="https://www.dmartindia.com/static/media/LADIES%20GARMENTS.8db50d48.jpg" alt="">
+        <h6>WOMEN'S APPAREL</h6>
+      </div>
+      <div class="col-md-3 store">
+        <img class="imgcss" src="https://www.dmartindia.com/static/media/apparel-men.309fe2a5.jpg" alt="">
+        <h6>MEN'S APPAREL</h6>
+      </div>
+      <div class="col-md-3 store">
+        <img class="imgcss" src="https://www.dmartindia.com/static/media/FRUITS%20&%20VEGETABLES.ecbcaabc.jpg" alt="">
+        <h6>FRUITS & VEGETABLES</h6>
+      </div>
+    </div>
+  </div><br><br>
+   <!--------------------------- footer ------------------------->
+   <footer class="page-footer font-small indigo">
 
-  <h3 class="text-center mt-3"><u>CATEGORIES</u></h3>
-  <div class="d-flex justify-content-evenly flex-wrap" >
-       <div style="position: relative;" class="me-4">
-        <img src="https://www.dmartindia.com/static/media/GROCERY%20&%20STAPLES.88be12a7.jpg" alt="">
-        <h4 style="position: absolute; bottom: 30px; background-color: rgba(0, 0, 0, 0.342);">GROCERY & STAPLES</h4>
-       </div>
-       <div style="position: relative;">
-        <img src="https://www.dmartindia.com/static/media/DAILY%20ESSENTIALS.e203cb84.jpg" alt="">
-        <h4 style="position: absolute; bottom: 40px; background-color: rgba(0, 0, 0, 0.37);">DAILY ESSENTIALS</h4>
-       </div>
-       <div style="position: relative;">
-        <img src="https://www.dmartindia.com/static/media/DAIRY%20&%20FROZEN.41fe6246.jpg" alt="">
-        <h4 style="position: absolute; bottom: 60px; background-color: rgba(0, 0, 0, 0.32);">DAIRY & FROZEN</h4>
-       </div>
-       <div style="position: relative;">
-        <img src="https://www.dmartindia.com/static/media/DMART%20BRANDS.d0b4c9ca.jpg" alt="">
-        <h4 style="position: absolute; bottom: 60px; background-color: rgba(0, 0, 0, 0.361);">DMART BRANDS</h4>
-       </div>
-       <div style="position: relative;" class="me-3">
-        <img src="https://www.dmartindia.com/static/media/GROCERY%20&%20STAPLES.88be12a7.jpg" alt="">
-        <h4 style="position: absolute; bottom: 30px; background-color: rgba(0, 0, 0, 0.342);">GROCERY & STAPLES</h4>
-       </div>
-       <div style="position: relative;">
-        <img src="https://www.dmartindia.com/static/media/DAILY%20ESSENTIALS.e203cb84.jpg" alt="">
-        <h4 style="position: absolute; bottom: 40px; background-color: rgba(0, 0, 0, 0.37);">DAILY ESSENTIALS</h4>
-       </div>
-       <div style="position: relative;">
-        <img src="https://www.dmartindia.com/static/media/DAIRY%20&%20FROZEN.41fe6246.jpg" alt="">
-        <h4 style="position: absolute; bottom: 60px; background-color: rgba(0, 0, 0, 0.32);">DAIRY & FROZEN</h4>
-       </div>
-       <div style="position: relative;">
-        <img src="https://www.dmartindia.com/static/media/DMART%20BRANDS.d0b4c9ca.jpg" alt="">
-        <h4 style="position: absolute; bottom: 60px; background-color: rgba(0, 0, 0, 0.361);">DMART BRANDS</h4>
-       </div>
-       <div style="position: relative;" class="me-3">
-        <img src="https://www.dmartindia.com/static/media/GROCERY%20&%20STAPLES.88be12a7.jpg" alt="">
-        <h4 style="position: absolute; bottom: 30px; background-color: rgba(0, 0, 0, 0.342);">GROCERY & STAPLES</h4>
-       </div>
-       <div style="position: relative;">
-        <img src="https://www.dmartindia.com/static/media/DAILY%20ESSENTIALS.e203cb84.jpg" alt="">
-        <h4 style="position: absolute; bottom: 40px; background-color: rgba(0, 0, 0, 0.37);">DAILY ESSENTIALS</h4>
-       </div>
-       <div style="position: relative;">
-        <img src="https://www.dmartindia.com/static/media/DAIRY%20&%20FROZEN.41fe6246.jpg" alt="">
-        <h4 style="position: absolute; bottom: 60px; background-color: rgba(0, 0, 0, 0.32);">DAIRY & FROZEN</h4>
-       </div>
-       <div style="position: relative;">
-        <img src="https://www.dmartindia.com/static/media/DMART%20BRANDS.d0b4c9ca.jpg" alt="">
-        <h4 style="position: absolute; bottom: 60px; background-color: rgba(0, 0, 0, 0.361);">DMART BRANDS</h4>
-       </div>
-       <div style="position: relative;">
-        <img src="https://www.dmartindia.com/static/media/GROCERY%20&%20STAPLES.88be12a7.jpg" alt="">
-        <h4 style="position: absolute; bottom: 30px; background-color: rgba(0, 0, 0, 0.342);">GROCERY & STAPLES</h4>
-       </div>
-       <div style="position: relative;">
-        <img src="https://www.dmartindia.com/static/media/DAILY%20ESSENTIALS.e203cb84.jpg" alt="">
-        <h4 style="position: absolute; bottom: 40px; background-color: rgba(0, 0, 0, 0.37);">DAILY ESSENTIALS</h4>
-       </div>
-       <div style="position: relative;">
-        <img src="https://www.dmartindia.com/static/media/DAIRY%20&%20FROZEN.41fe6246.jpg" alt="">
-        <h4 style="position: absolute; bottom: 60px; background-color: rgba(0, 0, 0, 0.32);">DAIRY & FROZEN</h4>
-       </div>
-       <div style="position: relative;">
-        <img src="https://www.dmartindia.com/static/media/DMART%20BRANDS.d0b4c9ca.jpg" alt="">
-        <h4 style="position: absolute; bottom: 60px; background-color: rgba(0, 0, 0, 0.361);">DMART BRANDS</h4>
-       </div>
-  </div>
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+  
+          <!-- Links -->
+          <p class="font-weight-bold text-uppercase mt-3 mb-4"><a href="">Sitemap</a></p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+  
+          <!-- Links -->
+          <p class="font-weight-bold text-uppercase mt-3 mb-4"><a href="">Privacy Policy</a></p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+  
+          <!-- Links -->
+          <p class="font-weight-bold text-uppercase mt-3 mb-4"><a href="">Terms of Use</a></p>
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+  
+          <!-- Links -->
+          <p class="font-weight-bold text-uppercase mt-3 mb-4"><a href="">Investor Relations</a></p>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+   
+  
+   
+   <!-- Bootstrap script file -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+crossorigin="anonymous"></script>
 
-  <!-- Footer start -->
-  <nav class="navbar navbar-expand-sm bg-dark justify-content-evenly mt-3">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Site map</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">privacy policy</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Terms of use</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Investor relation</a>
-      </li>
-    </ul>
-  </nav>
 </body>
 </html>
